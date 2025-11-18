@@ -10,10 +10,10 @@ public class Produto {
 
     public Produto(String codigo, String nome, BigDecimal precoUnitario) {
         //verificação do nulo
-        Objects.requireNonNull(precoUnitario, "O preço unitário não pode ser nulo.");
+        Objects.requireNonNull(precoUnitario, "O preço unitário não pode ser nulo");
         //verificação do preço negativo
         if (precoUnitario.signum() <= 0) {
-            throw new IllegalArgumentException("O preço unitário deve ser maior que zero.");
+            throw new IllegalArgumentException("O preço unitário deve ser maior que zero");
         }
         this.codigo=codigo;
         this.nome=nome;
