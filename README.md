@@ -6,6 +6,6 @@ Alunos Integrantes:
 
 Josè Francisco Paes Landim Sobrinho
 
-João Guilherme Malta
+João Guilherme Aragão Malta
 
-Gustavo Nunes
+Gustavo Nunes da Silva Pereira
